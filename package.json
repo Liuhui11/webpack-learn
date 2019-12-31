@@ -1,0 +1,45 @@
+{
+  "name": "webpack-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js",
+    "dev:mpa": "webpack --config webpack-mpa.config.js",
+    "dev:opt": "webpack --config webpack-optimization.config.js",
+    "dev:dll": "webpack --config webpack-dll-main.config.js",
+    "dll": "webpack --config webpack-dll.config.js",
+    "dev:split": "webpack --config webpack-split.config.js",
+    "dev:cache": "webpack --config webpack-cache.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.0",
+    "cssnano": "^4.1.10",
+    "glob": "^7.1.6",
+    "html-webpack-include-assets-plugin": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sass": "^1.24.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "@babel/runtime": "^7.7.7"
+  }
+}
